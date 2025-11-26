@@ -3,19 +3,20 @@
   "displayName": "Attune",
   "description": "Seamlessly switch between execution environments (Node.js, Python) in VS Code.",
   "version": "0.0.1",
-  "publisher": "yourusername",
+  "publisher": "Kinnito",
+  "icon": "icon.png",
   "author": {
-    "name": "Your Name"
+    "name": "Daniel Kinnito"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/attune.git"
+    "url": "https://github.com/DanielKinnito/attune.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/attune/issues"
+    "url": "https://github.com/DanielKinnito/attune/issues"
   },
-  "homepage": "https://github.com/yourusername/attune#readme",
+  "homepage": "https://github.com/DanielKinnito/attune#readme",
   "keywords": [
     "environment",
     "python",
