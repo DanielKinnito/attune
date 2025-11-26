@@ -1,6 +1,6 @@
 {
-  "name": "polyglot-environment-switcher",
-  "displayName": "Polyglot Environment Switcher",
+  "name": "attune",
+  "displayName": "Attune",
   "description": "Seamlessly switch between execution environments (Node.js, Python) in VS Code.",
   "version": "0.0.1",
   "engines": {
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "polyglot.switch",
-        "title": "Polyglot: Switch Environment"
+        "command": "attune.switch",
+        "title": "Attune: Switch Environment"
       }
     ]
   },
