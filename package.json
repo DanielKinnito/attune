@@ -34,13 +34,50 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "attune.switch",
-        "title": "Attune: Switch Environment"
+        "title": "Attune: Switch Environment",
+        "category": "Attune"
+      }
+    ],
+    "walkthroughs": [
+      {
+        "id": "attune.welcome",
+        "title": "Get Started with Attune",
+        "description": "Learn how to manage your development environments with Attune.",
+        "steps": [
+          {
+            "id": "attune.welcome.intro",
+            "title": "Welcome to Attune",
+            "description": "Attune helps you seamlessly switch between Node.js and Python environments.\n[Learn more](https://github.com/DanielKinnito/attune)",
+            "media": {
+              "image": "icon.png",
+              "altText": "Attune Logo"
+            }
+          },
+          {
+            "id": "attune.welcome.switch",
+            "title": "Switch Environments",
+            "description": "Click the status bar item or run the **Attune: Switch Environment** command to pick an environment.\n[Run Command](command:attune.switch)",
+            "media": {
+              "markdown": "media/walkthrough-switch.md"
+            }
+          },
+          {
+            "id": "attune.welcome.config",
+            "title": "Custom Configuration",
+            "description": "Create a `.vscode/attune.json` file to define custom profiles and startup commands.\n[Open Sample Config](command:workbench.action.files.newUntitledFile)",
+            "media": {
+              "markdown": "media/walkthrough-config.md"
+            }
+          }
+        ]
       }
     ]
   },
