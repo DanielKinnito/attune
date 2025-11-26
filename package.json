@@ -2,7 +2,7 @@
   "name": "attune",
   "displayName": "Attune",
   "description": "Seamlessly switch between execution environments (Node.js, Python) in VS Code.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Kinnito",
   "icon": "icon.png",
   "author": {
