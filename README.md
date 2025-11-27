@@ -2,7 +2,7 @@
 
 > Seamlessly switch between execution environments (Node.js, Python) in VS Code.
 
-Attune is a VS Code extension inspired by the works of Brandon Sanderson. It helps you effortlessly manage and switch between different development environments in your polyglot projects.
+Attune is a VS Code extension that helps you effortlessly manage and switch between different development environments in your polyglot projects.
 
 ## ✨ Features
 
